@@ -1,4 +1,7 @@
 # uniRTC-meeting-iOS
+
+### 详细了解：http://meeting.unicloud.com/
+
 ### 如何使用
 
 #### 1. 将UNIRTCMeetingUIKit、UNIRTCScreenShareManager和WebRTC导入工程
