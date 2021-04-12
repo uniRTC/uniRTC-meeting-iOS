@@ -1,5 +1,5 @@
 # uniRTC-meeting-iOS
-### 预览
+### 如何使用
 
 #### 1. 将UNIRTCMeetingUIKit、UNIRTCScreenShareManager和WebRTC导入工程
 
