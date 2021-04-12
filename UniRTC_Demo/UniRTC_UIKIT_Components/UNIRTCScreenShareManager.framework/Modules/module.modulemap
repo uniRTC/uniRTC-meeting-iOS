@@ -1,0 +1,6 @@
+framework module UNIRTCScreenShareManager {
+  umbrella header "UNIRTCScreenShareManager.h"
+
+  export *
+  module * { export * }
+}

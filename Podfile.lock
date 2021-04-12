@@ -1,0 +1,58 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - Bugly (2.5.71)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.1.0)
+  - MMWormhole (2.0.0):
+    - MMWormhole/Core (= 2.0.0)
+  - MMWormhole/Core (2.0.0)
+  - SDWebImage (5.10.2):
+    - SDWebImage/Core (= 5.10.2)
+  - SDWebImage/Core (5.10.2)
+  - WechatOpenSDK (1.8.6)
+
+DEPENDENCIES:
+  - AFNetworking (~> 4.0)
+  - Bugly
+  - Masonry
+  - MBProgressHUD (~> 1.1.0)
+  - MMWormhole (~> 2.0.0)
+  - SDWebImage (~> 5.0)
+  - WechatOpenSDK (= 1.8.6)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - Bugly
+    - Masonry
+    - MBProgressHUD
+    - MMWormhole
+    - SDWebImage
+    - WechatOpenSDK
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  Bugly: fd066c75c4a0eca1440f9b6a84bd37d51bfc85ac
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MMWormhole: 0cd3fd35a9118b2e2d762b499f54eeaace0be791
+  SDWebImage: b969dcfc02c40a5da71eac0b03b8f1a0c794a86f
+  WechatOpenSDK: 368ae03b72ee3ea1328c4f11326fbb5d2721d118
+
+PODFILE CHECKSUM: e560cca7ae5ad53a7fc162b7ab7d0fe41325824a
+
+COCOAPODS: 1.9.1

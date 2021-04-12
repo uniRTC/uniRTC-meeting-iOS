@@ -1,52 +1,90 @@
-# Prerequisites
-*.d
+.DS_Store
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+.svn
 
-# Linker output
-*.ilk
-*.map
-*.exp
+profile
 
-# Precompiled Headers
-*.gch
-*.pch
+*.moved-aside
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+#CocoaPods
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+Pods/
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+!Podfile
+
+!Podfile.lock
+
+
+#ulink
+
+ULink/
+
+ULink.xcodeproj
+
+ULink.xcworkspace
+
+
+## Build generated
+
+build/
+
+DerivedData
+
+
+
+## Various settings
+
+*.pbxuser
+
+!default.pbxuser
+
+*.mode1v3
+
+!default.mode1v3
+
+*.mode2v3
+
+!default.mode2v3
+
+*.perspectivev3
+
+!default.perspectivev3
+
+xcuserdata
+
+
+
+## Other
+
+*.xccheckout
+
+*.moved-aside
+
+*.xcuserstate
+
+*.xcscmblueprint
+
+*.xcscheme
+
+*.xcworkspace
+
+!default.xcworkspace
+
+DerivedData
+
+.idea
+
+
+
+
+
+## Obj-C/Swift specific
+
+*.hmap
+
+*.ipa
+
+
+

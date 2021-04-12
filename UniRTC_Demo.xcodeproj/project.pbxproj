@@ -1,0 +1,829 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BB6E6C124A2F1CBE705EF79 /* Pods_UniRTC_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4296FEA2B3EB9FC9194D3A7 /* Pods_UniRTC_Demo.framework */; };
+		5A3AB28C86BEBB874C707686 /* Pods_UniRTC_Demo_UniRTC_DemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8FA5A8B978537514AD61279 /* Pods_UniRTC_Demo_UniRTC_DemoUITests.framework */; };
+		93945D789F7249FDD6ADF949 /* Pods_UniRTC_DemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3909732D2C8404B57FE7530C /* Pods_UniRTC_DemoTests.framework */; };
+		D991FBAD2623E5300028F407 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D991FBAC2623E5300028F407 /* AppDelegate.m */; };
+		D991FBB02623E5300028F407 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D991FBAF2623E5300028F407 /* SceneDelegate.m */; };
+		D991FBB32623E5300028F407 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D991FBB22623E5300028F407 /* ViewController.m */; };
+		D991FBB62623E5300028F407 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D991FBB42623E5300028F407 /* Main.storyboard */; };
+		D991FBB82623E5320028F407 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D991FBB72623E5320028F407 /* Assets.xcassets */; };
+		D991FBBB2623E5320028F407 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D991FBB92623E5320028F407 /* LaunchScreen.storyboard */; };
+		D991FBBE2623E5320028F407 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D991FBBD2623E5320028F407 /* main.m */; };
+		D991FBC82623E5320028F407 /* UniRTC_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D991FBC72623E5320028F407 /* UniRTC_DemoTests.m */; };
+		D991FBD32623E5320028F407 /* UniRTC_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D991FBD22623E5320028F407 /* UniRTC_DemoUITests.m */; };
+		D991FBE82623F1330028F407 /* LoginJoinMeetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D991FBE52623F1330028F407 /* LoginJoinMeetViewController.m */; };
+		D991FBE92623F1330028F407 /* LoginJoinMeetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D991FBE72623F1330028F407 /* LoginJoinMeetViewController.xib */; };
+		D991FBF22623F2A00028F407 /* UNIRTCMeetingUIKitAssets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D991FBEE2623F29F0028F407 /* UNIRTCMeetingUIKitAssets.bundle */; };
+		D991FBFB2623F3F60028F407 /* UITextFieldLiner.m in Sources */ = {isa = PBXBuildFile; fileRef = D991FBFA2623F3F60028F407 /* UITextFieldLiner.m */; };
+		D991FC022623F4550028F407 /* UserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D991FC002623F4550028F407 /* UserInfoModel.m */; };
+		D991FC102623F76D0028F407 /* UNIRTCMeetingUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D991FBEF2623F29F0028F407 /* UNIRTCMeetingUIKit.framework */; };
+		D991FC112623F76D0028F407 /* UNIRTCMeetingUIKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D991FBEF2623F29F0028F407 /* UNIRTCMeetingUIKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D991FC132623F76F0028F407 /* UNIRTCScreenShareManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D991FBF12623F29F0028F407 /* UNIRTCScreenShareManager.framework */; };
+		D991FC142623F76F0028F407 /* UNIRTCScreenShareManager.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D991FBF12623F29F0028F407 /* UNIRTCScreenShareManager.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D991FC152623F7700028F407 /* WebRTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D991FBF02623F29F0028F407 /* WebRTC.framework */; };
+		D991FC162623F7700028F407 /* WebRTC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D991FBF02623F29F0028F407 /* WebRTC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D991FBC42623E5320028F407 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D991FBA02623E5300028F407 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D991FBA72623E5300028F407;
+			remoteInfo = UniRTC_Demo;
+		};
+		D991FBCF2623E5320028F407 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D991FBA02623E5300028F407 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D991FBA72623E5300028F407;
+			remoteInfo = UniRTC_Demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D991FC122623F76D0028F407 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D991FC112623F76D0028F407 /* UNIRTCMeetingUIKit.framework in Embed Frameworks */,
+				D991FC142623F76F0028F407 /* UNIRTCScreenShareManager.framework in Embed Frameworks */,
+				D991FC162623F7700028F407 /* WebRTC.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1ED5D7D25FE100BCBD68A6BC /* Pods-UniRTC_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniRTC_Demo.release.xcconfig"; path = "Target Support Files/Pods-UniRTC_Demo/Pods-UniRTC_Demo.release.xcconfig"; sourceTree = "<group>"; };
+		3909732D2C8404B57FE7530C /* Pods_UniRTC_DemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UniRTC_DemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7134B4AB41DE40C5A3FDBB9E /* Pods-UniRTC_Demo-UniRTC_DemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniRTC_Demo-UniRTC_DemoUITests.release.xcconfig"; path = "Target Support Files/Pods-UniRTC_Demo-UniRTC_DemoUITests/Pods-UniRTC_Demo-UniRTC_DemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		72051A6B03F7B2F16727F2D1 /* Pods-UniRTC_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniRTC_Demo.debug.xcconfig"; path = "Target Support Files/Pods-UniRTC_Demo/Pods-UniRTC_Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		B7A360D260D8C589C4E5CE17 /* Pods-UniRTC_Demo-UniRTC_DemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniRTC_Demo-UniRTC_DemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-UniRTC_Demo-UniRTC_DemoUITests/Pods-UniRTC_Demo-UniRTC_DemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D4296FEA2B3EB9FC9194D3A7 /* Pods_UniRTC_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UniRTC_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D991FBA82623E5300028F407 /* UniRTC_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniRTC_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D991FBAB2623E5300028F407 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D991FBAC2623E5300028F407 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D991FBAE2623E5300028F407 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		D991FBAF2623E5300028F407 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		D991FBB12623E5300028F407 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D991FBB22623E5300028F407 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D991FBB52623E5300028F407 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D991FBB72623E5320028F407 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D991FBBA2623E5320028F407 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D991FBBC2623E5320028F407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D991FBBD2623E5320028F407 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D991FBC32623E5320028F407 /* UniRTC_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UniRTC_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D991FBC72623E5320028F407 /* UniRTC_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UniRTC_DemoTests.m; sourceTree = "<group>"; };
+		D991FBC92623E5320028F407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D991FBCE2623E5320028F407 /* UniRTC_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UniRTC_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D991FBD22623E5320028F407 /* UniRTC_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UniRTC_DemoUITests.m; sourceTree = "<group>"; };
+		D991FBD42623E5320028F407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D991FBE52623F1330028F407 /* LoginJoinMeetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginJoinMeetViewController.m; sourceTree = "<group>"; };
+		D991FBE62623F1330028F407 /* LoginJoinMeetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginJoinMeetViewController.h; sourceTree = "<group>"; };
+		D991FBE72623F1330028F407 /* LoginJoinMeetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginJoinMeetViewController.xib; sourceTree = "<group>"; };
+		D991FBEE2623F29F0028F407 /* UNIRTCMeetingUIKitAssets.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UNIRTCMeetingUIKitAssets.bundle; sourceTree = "<group>"; };
+		D991FBEF2623F29F0028F407 /* UNIRTCMeetingUIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UNIRTCMeetingUIKit.framework; sourceTree = "<group>"; };
+		D991FBF02623F29F0028F407 /* WebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebRTC.framework; sourceTree = "<group>"; };
+		D991FBF12623F29F0028F407 /* UNIRTCScreenShareManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UNIRTCScreenShareManager.framework; sourceTree = "<group>"; };
+		D991FBF92623F3F60028F407 /* UITextFieldLiner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITextFieldLiner.h; sourceTree = "<group>"; };
+		D991FBFA2623F3F60028F407 /* UITextFieldLiner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITextFieldLiner.m; sourceTree = "<group>"; };
+		D991FC002623F4550028F407 /* UserInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoModel.m; sourceTree = "<group>"; };
+		D991FC012623F4550028F407 /* UserInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoModel.h; sourceTree = "<group>"; };
+		DB66D84FD4B138C9F8346079 /* Pods-UniRTC_DemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniRTC_DemoTests.debug.xcconfig"; path = "Target Support Files/Pods-UniRTC_DemoTests/Pods-UniRTC_DemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E8FA5A8B978537514AD61279 /* Pods_UniRTC_Demo_UniRTC_DemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UniRTC_Demo_UniRTC_DemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E90872615CED62C57924E62F /* Pods-UniRTC_DemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniRTC_DemoTests.release.xcconfig"; path = "Target Support Files/Pods-UniRTC_DemoTests/Pods-UniRTC_DemoTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D991FBA52623E5300028F407 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D991FC102623F76D0028F407 /* UNIRTCMeetingUIKit.framework in Frameworks */,
+				D991FC132623F76F0028F407 /* UNIRTCScreenShareManager.framework in Frameworks */,
+				D991FC152623F7700028F407 /* WebRTC.framework in Frameworks */,
+				4BB6E6C124A2F1CBE705EF79 /* Pods_UniRTC_Demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D991FBC02623E5320028F407 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93945D789F7249FDD6ADF949 /* Pods_UniRTC_DemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D991FBCB2623E5320028F407 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A3AB28C86BEBB874C707686 /* Pods_UniRTC_Demo_UniRTC_DemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C35A2A550262BA280FF98119 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4296FEA2B3EB9FC9194D3A7 /* Pods_UniRTC_Demo.framework */,
+				E8FA5A8B978537514AD61279 /* Pods_UniRTC_Demo_UniRTC_DemoUITests.framework */,
+				3909732D2C8404B57FE7530C /* Pods_UniRTC_DemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D09BD0558000D6DAF51EB948 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72051A6B03F7B2F16727F2D1 /* Pods-UniRTC_Demo.debug.xcconfig */,
+				1ED5D7D25FE100BCBD68A6BC /* Pods-UniRTC_Demo.release.xcconfig */,
+				B7A360D260D8C589C4E5CE17 /* Pods-UniRTC_Demo-UniRTC_DemoUITests.debug.xcconfig */,
+				7134B4AB41DE40C5A3FDBB9E /* Pods-UniRTC_Demo-UniRTC_DemoUITests.release.xcconfig */,
+				DB66D84FD4B138C9F8346079 /* Pods-UniRTC_DemoTests.debug.xcconfig */,
+				E90872615CED62C57924E62F /* Pods-UniRTC_DemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D991FB9F2623E5300028F407 = {
+			isa = PBXGroup;
+			children = (
+				D991FBAA2623E5300028F407 /* UniRTC_Demo */,
+				D991FBC62623E5320028F407 /* UniRTC_DemoTests */,
+				D991FBD12623E5320028F407 /* UniRTC_DemoUITests */,
+				D991FBA92623E5300028F407 /* Products */,
+				D09BD0558000D6DAF51EB948 /* Pods */,
+				C35A2A550262BA280FF98119 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D991FBA92623E5300028F407 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D991FBA82623E5300028F407 /* UniRTC_Demo.app */,
+				D991FBC32623E5320028F407 /* UniRTC_DemoTests.xctest */,
+				D991FBCE2623E5320028F407 /* UniRTC_DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D991FBAA2623E5300028F407 /* UniRTC_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				D991FBED2623F29F0028F407 /* UniRTC_UIKIT_Components */,
+				D991FBFF2623F4550028F407 /* model */,
+				D991FBF92623F3F60028F407 /* UITextFieldLiner.h */,
+				D991FBFA2623F3F60028F407 /* UITextFieldLiner.m */,
+				D991FBE62623F1330028F407 /* LoginJoinMeetViewController.h */,
+				D991FBE52623F1330028F407 /* LoginJoinMeetViewController.m */,
+				D991FBE72623F1330028F407 /* LoginJoinMeetViewController.xib */,
+				D991FBAB2623E5300028F407 /* AppDelegate.h */,
+				D991FBAC2623E5300028F407 /* AppDelegate.m */,
+				D991FBAE2623E5300028F407 /* SceneDelegate.h */,
+				D991FBAF2623E5300028F407 /* SceneDelegate.m */,
+				D991FBB12623E5300028F407 /* ViewController.h */,
+				D991FBB22623E5300028F407 /* ViewController.m */,
+				D991FBB42623E5300028F407 /* Main.storyboard */,
+				D991FBB72623E5320028F407 /* Assets.xcassets */,
+				D991FBB92623E5320028F407 /* LaunchScreen.storyboard */,
+				D991FBBC2623E5320028F407 /* Info.plist */,
+				D991FBBD2623E5320028F407 /* main.m */,
+			);
+			path = UniRTC_Demo;
+			sourceTree = "<group>";
+		};
+		D991FBC62623E5320028F407 /* UniRTC_DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D991FBC72623E5320028F407 /* UniRTC_DemoTests.m */,
+				D991FBC92623E5320028F407 /* Info.plist */,
+			);
+			path = UniRTC_DemoTests;
+			sourceTree = "<group>";
+		};
+		D991FBD12623E5320028F407 /* UniRTC_DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D991FBD22623E5320028F407 /* UniRTC_DemoUITests.m */,
+				D991FBD42623E5320028F407 /* Info.plist */,
+			);
+			path = UniRTC_DemoUITests;
+			sourceTree = "<group>";
+		};
+		D991FBED2623F29F0028F407 /* UniRTC_UIKIT_Components */ = {
+			isa = PBXGroup;
+			children = (
+				D991FBEE2623F29F0028F407 /* UNIRTCMeetingUIKitAssets.bundle */,
+				D991FBEF2623F29F0028F407 /* UNIRTCMeetingUIKit.framework */,
+				D991FBF02623F29F0028F407 /* WebRTC.framework */,
+				D991FBF12623F29F0028F407 /* UNIRTCScreenShareManager.framework */,
+			);
+			path = UniRTC_UIKIT_Components;
+			sourceTree = "<group>";
+		};
+		D991FBFF2623F4550028F407 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				D991FC002623F4550028F407 /* UserInfoModel.m */,
+				D991FC012623F4550028F407 /* UserInfoModel.h */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D991FBA72623E5300028F407 /* UniRTC_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D991FBD72623E5320028F407 /* Build configuration list for PBXNativeTarget "UniRTC_Demo" */;
+			buildPhases = (
+				E9263180A8667B592BA1C7D6 /* [CP] Check Pods Manifest.lock */,
+				D991FBA42623E5300028F407 /* Sources */,
+				D991FBA52623E5300028F407 /* Frameworks */,
+				D991FBA62623E5300028F407 /* Resources */,
+				D991FC122623F76D0028F407 /* Embed Frameworks */,
+				1C61133B0326E1A9E3E4564C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UniRTC_Demo;
+			productName = UniRTC_Demo;
+			productReference = D991FBA82623E5300028F407 /* UniRTC_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D991FBC22623E5320028F407 /* UniRTC_DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D991FBDA2623E5320028F407 /* Build configuration list for PBXNativeTarget "UniRTC_DemoTests" */;
+			buildPhases = (
+				6056EAFAF74064986A9AF219 /* [CP] Check Pods Manifest.lock */,
+				D991FBBF2623E5320028F407 /* Sources */,
+				D991FBC02623E5320028F407 /* Frameworks */,
+				D991FBC12623E5320028F407 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D991FBC52623E5320028F407 /* PBXTargetDependency */,
+			);
+			name = UniRTC_DemoTests;
+			productName = UniRTC_DemoTests;
+			productReference = D991FBC32623E5320028F407 /* UniRTC_DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D991FBCD2623E5320028F407 /* UniRTC_DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D991FBDD2623E5320028F407 /* Build configuration list for PBXNativeTarget "UniRTC_DemoUITests" */;
+			buildPhases = (
+				9D76BEEC80E033DB24690AB1 /* [CP] Check Pods Manifest.lock */,
+				D991FBCA2623E5320028F407 /* Sources */,
+				D991FBCB2623E5320028F407 /* Frameworks */,
+				D991FBCC2623E5320028F407 /* Resources */,
+				CC8004BDE86E6CAD2E5C3346 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D991FBD02623E5320028F407 /* PBXTargetDependency */,
+			);
+			name = UniRTC_DemoUITests;
+			productName = UniRTC_DemoUITests;
+			productReference = D991FBCE2623E5320028F407 /* UniRTC_DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D991FBA02623E5300028F407 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					D991FBA72623E5300028F407 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					D991FBC22623E5320028F407 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = D991FBA72623E5300028F407;
+					};
+					D991FBCD2623E5320028F407 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = D991FBA72623E5300028F407;
+					};
+				};
+			};
+			buildConfigurationList = D991FBA32623E5300028F407 /* Build configuration list for PBXProject "UniRTC_Demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D991FB9F2623E5300028F407;
+			productRefGroup = D991FBA92623E5300028F407 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D991FBA72623E5300028F407 /* UniRTC_Demo */,
+				D991FBC22623E5320028F407 /* UniRTC_DemoTests */,
+				D991FBCD2623E5320028F407 /* UniRTC_DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D991FBA62623E5300028F407 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D991FBBB2623E5320028F407 /* LaunchScreen.storyboard in Resources */,
+				D991FBF22623F2A00028F407 /* UNIRTCMeetingUIKitAssets.bundle in Resources */,
+				D991FBB82623E5320028F407 /* Assets.xcassets in Resources */,
+				D991FBB62623E5300028F407 /* Main.storyboard in Resources */,
+				D991FBE92623F1330028F407 /* LoginJoinMeetViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D991FBC12623E5320028F407 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D991FBCC2623E5320028F407 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C61133B0326E1A9E3E4564C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UniRTC_Demo/Pods-UniRTC_Demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UniRTC_Demo/Pods-UniRTC_Demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UniRTC_Demo/Pods-UniRTC_Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6056EAFAF74064986A9AF219 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UniRTC_DemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D76BEEC80E033DB24690AB1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UniRTC_Demo-UniRTC_DemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC8004BDE86E6CAD2E5C3346 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UniRTC_Demo-UniRTC_DemoUITests/Pods-UniRTC_Demo-UniRTC_DemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UniRTC_Demo-UniRTC_DemoUITests/Pods-UniRTC_Demo-UniRTC_DemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UniRTC_Demo-UniRTC_DemoUITests/Pods-UniRTC_Demo-UniRTC_DemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9263180A8667B592BA1C7D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UniRTC_Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D991FBA42623E5300028F407 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D991FBFB2623F3F60028F407 /* UITextFieldLiner.m in Sources */,
+				D991FC022623F4550028F407 /* UserInfoModel.m in Sources */,
+				D991FBB32623E5300028F407 /* ViewController.m in Sources */,
+				D991FBAD2623E5300028F407 /* AppDelegate.m in Sources */,
+				D991FBE82623F1330028F407 /* LoginJoinMeetViewController.m in Sources */,
+				D991FBBE2623E5320028F407 /* main.m in Sources */,
+				D991FBB02623E5300028F407 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D991FBBF2623E5320028F407 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D991FBC82623E5320028F407 /* UniRTC_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D991FBCA2623E5320028F407 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D991FBD32623E5320028F407 /* UniRTC_DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D991FBC52623E5320028F407 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D991FBA72623E5300028F407 /* UniRTC_Demo */;
+			targetProxy = D991FBC42623E5320028F407 /* PBXContainerItemProxy */;
+		};
+		D991FBD02623E5320028F407 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D991FBA72623E5300028F407 /* UniRTC_Demo */;
+			targetProxy = D991FBCF2623E5320028F407 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D991FBB42623E5300028F407 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D991FBB52623E5300028F407 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D991FBB92623E5320028F407 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D991FBBA2623E5320028F407 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D991FBD52623E5320028F407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D991FBD62623E5320028F407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D991FBD82623E5320028F407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72051A6B03F7B2F16727F2D1 /* Pods-UniRTC_Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LFYP3ML43W;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UniRTC_Demo/UniRTC_UIKIT_Components",
+				);
+				INFOPLIST_FILE = UniRTC_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.unicloud.UniRTC-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D991FBD92623E5320028F407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ED5D7D25FE100BCBD68A6BC /* Pods-UniRTC_Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LFYP3ML43W;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UniRTC_Demo/UniRTC_UIKIT_Components",
+				);
+				INFOPLIST_FILE = UniRTC_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.unicloud.UniRTC-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D991FBDB2623E5320028F407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB66D84FD4B138C9F8346079 /* Pods-UniRTC_DemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UniRTC_DemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.unicloud.UniRTC-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UniRTC_Demo.app/UniRTC_Demo";
+			};
+			name = Debug;
+		};
+		D991FBDC2623E5320028F407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E90872615CED62C57924E62F /* Pods-UniRTC_DemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UniRTC_DemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.unicloud.UniRTC-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UniRTC_Demo.app/UniRTC_Demo";
+			};
+			name = Release;
+		};
+		D991FBDE2623E5320028F407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7A360D260D8C589C4E5CE17 /* Pods-UniRTC_Demo-UniRTC_DemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UniRTC_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.unicloud.UniRTC-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UniRTC_Demo;
+			};
+			name = Debug;
+		};
+		D991FBDF2623E5320028F407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7134B4AB41DE40C5A3FDBB9E /* Pods-UniRTC_Demo-UniRTC_DemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UniRTC_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.unicloud.UniRTC-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UniRTC_Demo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D991FBA32623E5300028F407 /* Build configuration list for PBXProject "UniRTC_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D991FBD52623E5320028F407 /* Debug */,
+				D991FBD62623E5320028F407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D991FBD72623E5320028F407 /* Build configuration list for PBXNativeTarget "UniRTC_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D991FBD82623E5320028F407 /* Debug */,
+				D991FBD92623E5320028F407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D991FBDA2623E5320028F407 /* Build configuration list for PBXNativeTarget "UniRTC_DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D991FBDB2623E5320028F407 /* Debug */,
+				D991FBDC2623E5320028F407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D991FBDD2623E5320028F407 /* Build configuration list for PBXNativeTarget "UniRTC_DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D991FBDE2623E5320028F407 /* Debug */,
+				D991FBDF2623E5320028F407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D991FBA02623E5300028F407 /* Project object */;
+}

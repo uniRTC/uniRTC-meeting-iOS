@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginJoinMeetViewController">
+            <connections>
+                <outlet property="login_createmeeting_btn" destination="dqU-mS-tKF" id="XFU-jT-FNe"/>
+                <outlet property="login_joinmeeting_btn" destination="yEA-jJ-Fet" id="gwi-jl-vbs"/>
+                <outlet property="login_meetingnum_textfield" destination="dBn-oa-rmN" id="9Fz-ET-sQj"/>
+                <outlet property="login_meetname_textfield" destination="FD2-nl-yor" id="opE-k1-Ibh"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="加入会议" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z95-8m-uZF">
+                    <rect key="frame" x="38.000000000000007" y="81.666666666666671" width="81.666666666666686" height="24"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请输入会议号" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dBn-oa-rmN" customClass="UITextFieldLiner">
+                    <rect key="frame" x="38" y="181.66666666666666" width="338" height="38"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="38" id="RWD-eK-IXY"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请输入昵称" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FD2-nl-yor" customClass="UITextFieldLiner">
+                    <rect key="frame" x="38" y="242.66666666666663" width="338" height="38"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="38" id="oko-9L-JcW"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yEA-jJ-Fet">
+                    <rect key="frame" x="38" y="314.66666666666669" width="338" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="XyZ-ga-NM7"/>
+                    </constraints>
+                    <state key="normal" title="加入"/>
+                    <connections>
+                        <action selector="joinMeetingBtnClick:" destination="-1" eventType="touchUpInside" id="9dH-4d-QzW"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dqU-mS-tKF">
+                    <rect key="frame" x="38" y="378.66666666666669" width="338" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="44" id="abG-Jh-Cby"/>
+                        <constraint firstAttribute="height" constant="44" id="tkF-0q-Kyd"/>
+                    </constraints>
+                    <state key="normal" title="创建"/>
+                    <connections>
+                        <action selector="createMeetingBtnClick:" destination="-1" eventType="touchUpInside" id="0Zh-2a-6wB"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="yEA-jJ-Fet" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="38" id="1EP-rn-BXd"/>
+                <constraint firstItem="dqU-mS-tKF" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="38" id="29c-Do-eM9"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="dqU-mS-tKF" secondAttribute="trailing" constant="38" id="8fz-rh-EhA"/>
+                <constraint firstItem="dBn-oa-rmN" firstAttribute="top" secondItem="Z95-8m-uZF" secondAttribute="bottom" constant="76" id="BPC-AB-Cyt"/>
+                <constraint firstItem="Z95-8m-uZF" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="81.5" id="FGK-hb-sb1"/>
+                <constraint firstItem="FD2-nl-yor" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Fjy-pb-jXL"/>
+                <constraint firstItem="FD2-nl-yor" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="38" id="GWW-f5-qgU"/>
+                <constraint firstItem="yEA-jJ-Fet" firstAttribute="top" secondItem="FD2-nl-yor" secondAttribute="bottom" constant="34" id="Jgg-Aq-0VB"/>
+                <constraint firstItem="Z95-8m-uZF" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="38" id="Nmz-8p-Pyv"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="FD2-nl-yor" secondAttribute="trailing" constant="38" id="ORW-AS-j5m"/>
+                <constraint firstItem="dqU-mS-tKF" firstAttribute="top" secondItem="yEA-jJ-Fet" secondAttribute="bottom" constant="20" id="Pz8-O4-gaq"/>
+                <constraint firstItem="dBn-oa-rmN" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="RYY-ia-UsQ"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="dBn-oa-rmN" secondAttribute="trailing" constant="38" id="eJu-za-eMM"/>
+                <constraint firstItem="dBn-oa-rmN" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="38" id="iBC-x7-NzZ"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="yEA-jJ-Fet" secondAttribute="trailing" constant="38" id="lqV-fC-Bi2"/>
+                <constraint firstItem="FD2-nl-yor" firstAttribute="top" secondItem="dBn-oa-rmN" secondAttribute="bottom" constant="23" id="yyH-9W-sk9"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="149"/>
+        </view>
+    </objects>
+</document>
