@@ -1,6 +1,6 @@
 # uniRTC-meeting-iOS
 <h2>1. 将UNIRTCMeetingUIKit、UNIRTCScreenShareManager和WebRTC导入工程</h2>
->![image](https://github.com/uniRTC/uniRTC-meeting-iOS/blob/main/shotcuts/1.png)
+![image](https://github.com/uniRTC/uniRTC-meeting-iOS/blob/main/shotcuts/1.png)
 
 需要同时将UNIRTCMeetingUIKitAssets导入到Copy Bundle Resources中
 
@@ -77,7 +77,7 @@ _appDelegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
 </code></pre>
 
 <h2>3. 获取会议信息</h2>
->![image](https://github.com/uniRTC/uniRTC-meeting-iOS/blob/main/shotcuts/3.png)
+![image](https://github.com/uniRTC/uniRTC-meeting-iOS/blob/main/shotcuts/3.png)
 
 
 <h2>4. 需要添加的三方内容</h2>
