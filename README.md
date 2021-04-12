@@ -1,7 +1,9 @@
 # uniRTC-meeting-iOS
 <h2>1. 将UNIRTCMeetingUIKit、UNIRTCScreenShareManager和WebRTC导入工程</h2>
 >![image](https://github.com/uniRTC/uniRTC-meeting-iOS/blob/main/shotcuts/1.png)
+
 需要同时将UNIRTCMeetingUIKitAssets导入到Copy Bundle Resources中
+
 ![image](https://github.com/uniRTC/uniRTC-meeting-iOS/blob/main/shotcuts/2.png)
 
 
