@@ -1,8 +1,8 @@
 # uniRTC-meeting-iOS
 <h2>1. 将UNIRTCMeetingUIKit、UNIRTCScreenShareManager和WebRTC导入工程</h2>
->![截屏2021-02-03_10.23.58](/uploads/e558e6e68fc73b520a312798a80a1bea/截屏2021-02-03_10.23.58.png)
+>![image](https://github.com/uniRTC/uniRTC-meeting-iOS/blob/main/shotcuts/1.png)
 需要同时将UNIRTCMeetingUIKitAssets导入到Copy Bundle Resources中
-![截屏2021-02-03_10.25.48](/uploads/7bd6d467aa6c3df6e4919eee83b3cf68/截屏2021-02-03_10.25.48.png)
+![image](https://github.com/uniRTC/uniRTC-meeting-iOS/blob/main/shotcuts/2.png)
 
 
 <h2>2. 使用时需要先引入架包类</h2>
@@ -75,7 +75,7 @@ _appDelegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
 </code></pre>
 
 <h2>3. 获取会议信息</h2>
->![截屏2021-02-26_10.42.42](/uploads/7910dde0b1a8c3c630e9d185d2116d4a/截屏2021-02-26_10.42.42.png)
+>![image](https://github.com/uniRTC/uniRTC-meeting-iOS/blob/main/shotcuts/3.png)
 
 
 <h2>4. 需要添加的三方内容</h2>
@@ -95,10 +95,10 @@ _appDelegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
 >如需要屏幕共享功能 需要添加Broadcast Upload Extension，具体如何添加这边不做说明
 
 >在target的Signing& Capabilities中添加App Groups
->![image3](/uploads/c90eed87256c845fae78ea5fd52b6926/image3.png)
+>![image](https://github.com/uniRTC/uniRTC-meeting-iOS/blob/main/shotcuts/4.png)
 
 >在生成的SampleHandler中引入UNIRTCScreenShareManager 切记不要在extension中embed任何库，否则无法上架，只需在宿主app中Embed&sign即可
-![截屏2021-02-03_10.24.27](/uploads/042f0676ce562684c55a9c42ab27e6a7/截屏2021-02-03_10.24.27.png)
+![image](https://github.com/uniRTC/uniRTC-meeting-iOS/blob/main/shotcuts/5.png)
 
 ```
 #import <UNIRTCScreenShareManager/UNIRTCSampleHandlerSocketManager.h>
